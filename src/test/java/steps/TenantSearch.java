@@ -89,8 +89,7 @@ public class TenantSearch {
     public void tenantEnterFavoriteTheKostTobelo() throws InterruptedException {
         Thread.sleep(1000);
         driver.findElement(By.xpath("//button[@class='ng-binding']")).click();
-        WebElement element =driver.findElement(By.xpath("//div[@class='detail-kost-overview-widget__favorite-button']"));
-        element.click();
+        //driver.findElement(By.xpath("//*[@id=\"detailKostOverviewFavShare\"]/div[1]/button/svg")).click();
         //driver.findElement(By.xpath("//div[@class='detail-kost-overview-widget__favorite-button']")).click();
     }
 
